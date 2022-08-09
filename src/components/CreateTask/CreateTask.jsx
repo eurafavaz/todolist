@@ -1,5 +1,5 @@
 import "../CreateTask/CreateTask.css";
-import { Input } from "../Input/Input";
+// import { Input } from "../Input/Input";
 import { useState } from "react";
 
 export function CreateTask() {
@@ -9,7 +9,7 @@ export function CreateTask() {
   return (
     <div>
       <form>
-        <Input
+        {/* <Input
           name={"complete-task"}
           setField={setComplete}
           value={complete}
@@ -18,7 +18,7 @@ export function CreateTask() {
           name={"name-task"}
           label={"Taks:"}
           setField={setName}
-          value={name}
+          value={name} */}
         />
       </form>
     </div>

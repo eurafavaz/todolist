@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../TasksList/TasksList.css";
 
 function TasksList() {
-  const [taskSelected, setTaskSelected] = useState({}); //useState para gerenciar o estado da nossa aplicação, neste caso, nossas variáveis são um objeto vazio
+  const [taskSelected, setTaskSelected] = useState({});
 
   function addNewTask(index) {
     const initValue = (Number = taskSelected[index] || 0);

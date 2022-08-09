@@ -9,8 +9,8 @@ import { CreateTask } from "./components/CreateTask/CreateTask";
 function App() {
   return (
     <div className="App">
-      <CreateTask/>
       <Navbar />
+      <CreateTask/>
       <h1>Todolist h1 do App</h1>
       <Home/>
       <Routes>{/* <Route path="/" element={}/> */}</Routes>
